@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Ayush Sachan</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+	<nav id="desktop-nav">
+		<div class="logo">Ayush Sachan</div>
+		<div>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="hamburger-nav">
+		<div class="logo">Ayush Sachan</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#about" onclick="toggleMenu()">About</a></li>
+				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div>
+	</nav>
+	<section id="profile">
+		<div class="section__pic-container">
+			<img src="./assets/avatar.png" style="border: 1px solid rgb(228, 228, 228); border-radius: 50%;"
+				alt="Ayush Sachan profile picture" />
+		</div>
+		<div class="section__text">
+			<p class="section__text__p1">Hello, I'm</p>
+			<h1 class="title">Ayush Sachan</h1>
+			<p class="section__text__p2">Full Stack Developer/Software Engineer</p>
+			<div class="btn-container">
+				<button class="btn btn-color-2"
+					onclick="window.open('https://drive.google.com/file/d/17wNoLs1Fg8DVAyKKj2ot34fkeLbmOCuL/view?usp=sharing')">
+					Download CV
+				</button>
+				<button class="btn btn-color-1" onclick="location.href='./#contact'">
+					Contact Info
+				</button>
+			</div>
+			<div id="socials-container">
+				<a target="_blank" href="https://www.linkedin.com/in/sachanayush47/"><img src="./assets/linkedin.png"
+						alt="My LinkedIn profile" class="icon" /></a>
+				<a target="_blank" href="https://github.com/sachanayush47"><img src="./assets/github.png"
+						alt="My Github profile" class="icon" /></a>
+
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<p class="section__text__p1">Get To Know More</p>
+		<h1 class="title">About Me</h1>
+		<div class="section-container">
+			<div class="section__pic-container">
+				<img src="./assets/img2.jpg" style="border: 1px solid rgb(190, 190, 190);" alt="Profile picture"
+					class="about-pic" />
+			</div>
+			<div class="about-details-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./assets/coworking.png" alt="Experience icon" class="icon" />
+						<h3>Open to Work</h3>
+						<p>Looking for fulltime SDE/Full Stack Developer jobs and internship</p>
+					</div>
+					<div class="details-container">
+						<img src="./assets/education.png" alt="Education icon" class="icon" />
+						<h3>Education</h3>
+						<p>BTech in Computer Science<br />CGPA: 8.3/10</p>
+					</div>
+				</div>
+				<div class="text-container">
+					<p>
+						Hi, I am Ayush Sachan, final year engineering undergraduate major in computer science from UIET,
+						Kurukshetra University (2020 - 2024 batch). I am residence of Gurgaon, Haryana, India.
+						My hobbies are playing Chess, Volleyball, Coding and Gardening. Talking about my strengths, Im a
+						team player, excellent in communication.
+						I consider myself as a very focused person and work towards my goals in a very efficient
+						manner.
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+	</section>
+	<section id="experience">
+		<p class="section__text__p1">Explore My</p>
+		<h1 class="title">Skills</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container">
+					<!-- <h2 class="experience-sub-title">Frontend Development</h2> -->
+					<div class="article-container">
+						<div>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>Java</h3>
+									<!-- <p></p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>Node.js</h3>
+									<!-- <p>Experienced</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>SQL</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>React.js</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>HTML</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>Linux</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+						</div>
+						<div>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>JavaScript</h3>
+									<!-- <p>Basic</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>Express.js</h3>
+									<!-- <p>Basic</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>MongoDB</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>TailwindCSS</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>CSS</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>Docker</h3>
+									<!-- <p>Intermediate</p> -->
+								</div>
+							</article>
+						</div>
+
+					</div>
+				</div>
+				<div class="details-container">
+					<!-- <h2 class="experience-sub-title">Frontend Development</h2> -->
+					<div class="article-container-2">
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Object Oriented Programming</h3>
+								<!-- <p>Basic</p> -->
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Data Structures & Algorithms</h3>
+								<!-- <p>Intermediate</p> -->
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Database Management System</h3>
+								<!-- <p>Intermediate</p> -->
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Operating System</h3>
+								<!-- <p>Intermediate</p> -->
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Computer Networks</h3>
+								<!-- <p>Intermediate</p> -->
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+	</section>
+	<section id="projects">
+		<p class="section__text__p1">Browse My Recent</p>
+		<h1 class="title">Projects</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/autocerti.png" style="border: 1px solid black;" alt=" Project 1"
+							class="project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">AutoCerti</h2>
+					<p style="margin-bottom: 30px;">A centralized application to automate the process of design, bulk
+						distribution and verification
+						of e-certificates.</p>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://github.com/sachanayush47/AutoCerti')">
+							Github
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://auto-certi.vercel.app')">
+							Live Demo
+						</button>
+					</div>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/watchastra2.png" alt="Project 2" class="project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">WatchAstra</h2>
+					<p style="margin-bottom: 30px;">A application to track and monitor workforce in an area using
+						geo-fencing technique.</p>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://github.com/sachanayush47/WatchAstra')">
+							Github
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://watch-astra.vercel.app/')">
+							Live Demo
+						</button>
+					</div>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/codedaily.png" alt="Project 3" class="project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">CodeDaily</h2>
+					<p style="margin-bottom: 30px;">A tech-blogging platform to share your knowledge and insights with
+						all the developers outside.</p>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://github.com/sachanayush47/CodeDaily')">
+							Github
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="window.open('https://code-daily.vercel.app')">
+							Live Demo
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+	</section>
+	<section id="contact">
+		<p class="section__text__p1">Get in Touch</p>
+		<h1 class="title">Contact Me</h1>
+		<div class="contact-info-upper-container">
+			<div class="contact-info-container">
+				<img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+				<p><a href="mailto:sachan.ayush47@gmail.com">sachan.ayush47@gmail.com</a></p>
+			</div>
+			<div class="contact-info-container">
+				<img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+				<p><a href="https://www.linkedin.com/in/sachanayush47/">LinkedIn</a></p>
+			</div>
+			<div class="contact-info-container">
+				<img src="./assets/phone.png" alt="Mobile icon" class="icon contact-icon" />
+				<p>+918920443930</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav>
+			<div class="nav-links-container">
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- <p>Copyright &#169; 2023 Ayush Sachan. All Rights Reserved.</p> -->
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
